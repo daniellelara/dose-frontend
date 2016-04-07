@@ -3,7 +3,7 @@
 <head>
   <title>Dose Tools</title>
   <link rel="icon" href="/images/dose.png">
-  <script src="http://localhost:3000/socket.io/socket.io.js" charset="utf-8"></script>
+  <script src="https://wdi-dose-api/socket.io/socket.io.js" charset="utf-8"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
   <!-- angular -->
   <script src="/js/vendor/angular-resource/angular-resource.min.js"></script>
