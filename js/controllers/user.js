@@ -1,10 +1,10 @@
 angular.module('dose')
   .controller('UserController', UserController);
 
-UserController.$inject = ['weather', '$window', '$scope', 'TransportService', 'WordService', 'Video', 'tokenService', 'GNews', 'GallService', 'football', 'quote', 'ScoresLive', 'ChampionsLive'];
+UserController.$inject = ['weather', '$window', '$scope', 'TransportService', 'WordService', 'Video', 'tokenService', 'GNews', 'GallService', 'football', 'quote', 'ScoresLive', 'ChampionsLive', 'API_URL'];
 
-function UserController(weather, $window, $scope, TransportService, WordService, Video, tokenService, GNews, GallService, football, quote, ScoresLive, ChampionsLive) {
-  var socket = $window.io("http://localhost:3000");
+function UserController(weather, $window, $scope, TransportService, WordService, Video, tokenService, GNews, GallService, football, quote, ScoresLive, ChampionsLive, API_URL) {
+  var socket = $window.io(API_URL);
 
   socket.on('connect', function() {
     console.log("CONNECTED!");
