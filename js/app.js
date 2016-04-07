@@ -1,4 +1,4 @@
-angular.module('dose',  ['ngResource', 'satellizer', 'angular-jwt', 'gridster', 'ngFileUpload'])
+angular.module('dose',  ['satellizer', 'angular-jwt', 'gridster', 'ngFileUpload'])
   .constant('API_URL', 'https://wdi-dose-api.herokuapp.com')
   .constant('YT', 'https://www.googleapis.com/youtube/v3/search')
   .constant('API', 'https://wdi-dose-api.herokuapp.com/users')

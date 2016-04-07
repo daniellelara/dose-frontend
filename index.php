@@ -5,8 +5,6 @@
   <link rel="icon" href="/images/dose.png">
   <script src="https://wdi-dose-api.herokuapp.com/socket.io/socket.io.js" charset="utf-8"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
-  <!-- angular -->
-  <script src="/js/vendor/angular-resource/angular-resource.min.js"></script>
 
   <!-- for gridster -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
