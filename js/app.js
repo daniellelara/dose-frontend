@@ -1,7 +1,7 @@
 angular.module('dose',  ['ngResource', 'satellizer', 'angular-jwt', 'gridster', 'ngFileUpload'])
-  .constant('API_URL', 'http://localhost:3000')
+  .constant('API_URL', 'https://wdi-dose-api')
   .constant('YT', 'https://www.googleapis.com/youtube/v3/search')
-  .constant('API', 'http://localhost:3000/users')
+  .constant('API', 'https://wdi-dose-api/users')
   .constant('S3', 'https://s3-eu-west-1.amazonaws.com/wdi-london18/')
   .config(oauthConfig);
 

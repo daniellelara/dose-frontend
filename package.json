@@ -1,0 +1,22 @@
+{
+  "name": "dose-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "postinstall": "bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniellelara/dose-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniellelara/dose-frontend/issues"
+  },
+  "homepage": "https://github.com/daniellelara/dose-frontend#readme",
+  "dependencies": {
+    "bower": "^1.7.9"
+  }
+}
