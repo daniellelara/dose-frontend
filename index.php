@@ -121,7 +121,7 @@
         <div class="picture" ng-click="main.backgroundChange('night sky')" class="add"><img class="iconpaper" src="./images/nightsky.jpg"></div>
         <div class="picture" ng-click="main.backgroundChange('mine')" class="add"><img class="iconpaper" src="{{ main.myImage }}"></div>
 
-        <div class="picture" ng-click="main.backgroundChange('mine')" class="add">
+        <div class="picture" class="add">
         <div class="add-icon">
           <form ng-submit="main.addPhoto(image)">
             
