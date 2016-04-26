@@ -11,6 +11,7 @@ function Word(WordService) {
 
       WordService.get().then(function(res){
         $scope.$applyAsync(function(){
+          console.log(res.data, "fint problem");
           $scope.dgData = res.data;
         }); 
       })
