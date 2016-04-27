@@ -24,7 +24,7 @@
   <script src="/js/vendor/ng-file-upload/ng-file-upload.min.js"></script>
 
   <!-- link to controllers, directives and services -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+ 
   <script src="/js/phone.js"></script>
   <script src="/js/app.js" charset="utf-8"></script>
   <script src="/js/services/transport.js" charset="utf-8"></script>
@@ -127,13 +127,8 @@
         <div class="picture" class="add">
         <div class="add-icon">
           <form ng-submit="main.addPhoto(image)">
-            
-              <p>
-              
-                <i class="fa fa-plus"></i>
-                <input ngf-select ng-model="image" type="file" id="exampleInputFile">
-              </p>
-              <button>add</button>
+            <input ngf-select ng-model="image" type="file" id="exampleInputFile">
+            <button><i class="fa fa-plus"></i></button>
             
           </form>
           </div>
