@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="dose">
 <head>
+  <meta name="viewport" content="width=device-width">
   <title>Dose Tools</title>
   <link rel="icon" href="/images/dose.png">
   <script src="https://wdi-dose-api.herokuapp.com/socket.io/socket.io.js" charset="utf-8"></script>
