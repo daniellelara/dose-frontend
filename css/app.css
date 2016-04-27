@@ -1,7 +1,13 @@
+html {
+  width: 100%;
+}
+
+
 body {
   background-image: url('/images/forest.jpg');
   background-size: cover;
   font-family: Helvetica;
+
 }
 
 ul {
@@ -505,10 +511,13 @@ tr {
 }
 
 @media (max-width: 47.999em) {
-  html {
+  /*html {
       overflow: hidden;
-  }
+  }*/
   .center-add {
     width: 300px;
+  }
+  .league{
+    width: 100px;
   }
 }  
