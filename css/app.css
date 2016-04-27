@@ -505,7 +505,10 @@ tr {
 }
 
 @media (max-width: 47.999em) {
-  center-add {
+  body{
+    width: 100%;
+  }
+  .center-add {
     width: 300px;
   }
 }  
