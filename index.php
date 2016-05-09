@@ -80,7 +80,6 @@
         <hr/> 
         <i class="fa fa-facebook-square facebook" ng-click="main.authenticate('facebook')"></i>
         <i ng-click="main.authenticate('github')" class="fa fa-github-square github"></i>
-        <i class="fa fa-twitter-square twitter"></i>
       </div>  
        
     </div>

@@ -72,6 +72,7 @@ function MainController($auth, tokenService, $http, API, $window, toolService, U
     } else {
       return false;
     }
+    
   }
 
   self.addPhoto = function(image) {

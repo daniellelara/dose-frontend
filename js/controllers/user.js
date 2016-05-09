@@ -58,6 +58,7 @@ function UserController(weather, $window, $scope, TransportService, WordService,
  }) 
 
 //query all notes in database and make it equal to notes
+//@todo urgent - filter notes in back end
  socket.on('notes', function(notes){
    //filter only current user notes
   var allNotes = notes.notes 
